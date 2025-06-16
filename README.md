@@ -2,8 +2,6 @@
 
 ![Demo App](/public/screenshot-for-readme.png)
 
-[Watch Full Tutorial on Youtube](https://youtu.be/vUYopHWOURg)
-
 Highlights:
 
 - 🚀 Tech stack: Next.js App Router, Postgres, Prisma, Clerk & TypeScript

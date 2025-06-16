@@ -7,6 +7,8 @@ import Link from "next/link";
 import { Avatar, AvatarImage } from "./ui/avatar";
 import { Separator } from "./ui/separator";
 import { LinkIcon, MapPinIcon } from "lucide-react";
+import LandingPage from "./LandingPage";
+
 
 async function Sidebar() {
   const authUser = await currentUser();
@@ -48,6 +50,7 @@ async function Sidebar() {
                   <p className="font-medium">{user._count.followers}</p>
                   <p className="text-xs text-muted-foreground">Followers</p>
                 </div>
+                
               </div>
               <Separator className="my-4" />
             </div>
@@ -79,6 +82,7 @@ export default Sidebar;
 
 const UnAuthenticatedSidebar = () => (
   <div className="sticky top-20">
+      
     <Card>
       <CardHeader>
         <CardTitle className="text-center text-xl font-semibold">Welcome Back!</CardTitle>
@@ -98,6 +102,9 @@ const UnAuthenticatedSidebar = () => (
           </Button>
         </SignUpButton>
       </CardContent>
+      
     </Card>
+  
+    
   </div>
 );
