@@ -13,8 +13,8 @@ async function Navbar() {
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
-            <Link href="/" className="text-xl font-bold text-primary font-mono tracking-wider">
-              NextBlush
+           <Link href="/" className="text-2xl font-bold italic text-pink-600 tracking-wide font-[cursive] hover:text-pink-700 transition-all duration-300">
+              Mab Lush
             </Link>
           </div>
 
