@@ -85,12 +85,12 @@ const UnAuthenticatedSidebar = () => (
       
     <Card>
       <CardHeader>
-        <CardTitle className="text-center text-xl font-semibold">Welcome Back!</CardTitle>
+        <CardTitle className="text-center text-2xl font-semibold">Welcome Back!</CardTitle>
       </CardHeader>
       <CardContent>
-        <p className="text-center text-muted-foreground mb-4">
-          Login to access your profile and connect with others.
-        </p>
+        <p className="text-muted-foreground text-center text-base">
+  Dive into the conversation ✨ — log in to share your thoughts, blog what's on your mind, and connect with a vibrant community!
+</p>
         <SignInButton mode="modal">
           <Button className="w-full" variant="outline">
             Login
