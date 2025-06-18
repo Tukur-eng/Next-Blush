@@ -21,7 +21,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Blog-Twit",
+  title: "Mab Lush ",
   description: "A modern social media application powered by Next.js",
 };
 
